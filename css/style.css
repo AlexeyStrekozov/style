@@ -208,14 +208,14 @@
   padding-bottom: 45px;
 }
 
-.intense-headline h1 {
+.intense h1 {
   text-align: center;
   font-size: 42px;
   font-family: Circe ExtraBold;
   line-height: 42px;
 }
 
-.intense-headline h1 span {
+.intense h1 span {
   color: #fcbc31;
 }
 
@@ -256,14 +256,14 @@
   margin-left: -25px;
 }
 
-.check-list-headline h1 {
+.check-list h1 {
   font-size: 42px;
   line-height: 42px;
   font-family: Circe ExtraBold;
   text-align: center;
 }
 
-.check-list-headline h1 span {
+.check-list h1 span {
   color: #fcbc31;
 }
 
