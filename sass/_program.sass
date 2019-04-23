@@ -1,0 +1,85 @@
+.program
+    min-height: 978px
+    transform: skewY(-6deg)
+    background-color: #f8f7f6
+    padding-bottom: 85px
+    &-wrap
+       transform: skewY(6deg)
+       width: 1088px
+       margin: 0 auto
+    &-headline
+        padding-top: 76px
+        padding-bottom: 41px
+        h1
+            font-size: 42px
+            +ExtraBold
+            text-align: center
+            line-height: 52px
+            span
+                color: #fcbc31
+    &-block
+        text-align: center
+        width: 344px
+        max-height: 625px
+        &__subtilte
+            font-size: 28px
+            +ExtraBold
+            padding-bottom: 25px
+            span
+                color: #fcbc31
+        &__text
+            +Regular
+            font-size: 20px
+            border: 5px solid #fcbc31
+            border-top-left-radius: 15em 1em
+            border-bottom-right-radius: 15em 1em
+            padding: 27px
+            padding-bottom: 76px
+            height: 79%            
+            &__time
+                display: flex
+                align-items: center
+                justify-content: center
+                padding-bottom: 16px
+                img
+                    margin-left: 20px
+            ul
+                width: 262px
+                margin: 0 auto
+                text-align: left
+                font-size: 20px
+                min-height: 218px
+                li
+                    width: 276px
+                    line-height: 26px
+                    margin-bottom: 5px
+                    list-style-type: none
+                    display: flex
+                    &:before
+                        content: "⚫"
+                        color: #fcbc31
+                        margin-right: 19px
+                        margin-left: -4px
+            &__result
+                padding-top: 53px
+                padding-left: 8px
+                +bold
+                font-size: 20px
+                line-height: 26px
+                text-align: left
+                max-height: 218px
+                span
+                    display: block
+                    padding-bottom: 8px
+    &-subtitle
+        h1
+            +Regular
+            font-size: 28px
+            text-align: center
+            margin-top: 95px
+    &-button
+        margin: -11px auto
+        width: 341px
+.row-wrap
+    justify-content: space-between
+                 
