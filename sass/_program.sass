@@ -9,7 +9,7 @@
        margin: 0 auto
     &-headline
         padding-top: 76px
-        padding-bottom: 41px
+        padding-bottom: 31px
         h1
             font-size: 42px
             +ExtraBold
@@ -20,7 +20,12 @@
     &-block
         text-align: center
         width: 344px
-        max-height: 625px
+        min-height: 771px
+        margin-left: 10px
+        &:nth-child(2n)
+            margin-left: 9px
+        &:last-child
+            margin-right: 12px
         &__subtilte
             font-size: 28px
             +ExtraBold
@@ -72,13 +77,14 @@
                     display: block
                     padding-bottom: 8px
     &-subtitle
+        margin-top: -138px
         h1
             +Regular
             font-size: 28px
             text-align: center
             margin-top: 95px
     &-button
-        margin: -11px auto
+        margin: -15px auto
         width: 341px
 .row-wrap
     justify-content: space-between

@@ -55,12 +55,13 @@
 }
 
 .header-text {
-  padding-top: 94px;
+  padding-top: 97px;
   color: #ffffff;
+  margin-left: -16px;
 }
 
 .header-text h1 {
-  padding-bottom: 29px;
+  padding-bottom: 27px;
   font-size: 48px;
   font-family: Circe bold;
   line-height: 58px;
@@ -72,14 +73,14 @@
   opacity: 0.8;
   margin-left: -3px;
   line-height: 34px;
-  padding-top: 27px;
+  padding-top: 19px;
   width: 623px;
   font-family: Circe light;
   font-size: 28px;
 }
 
 .header-text__intense {
-  padding-top: 81px;
+  padding-top: 58px;
   color: #000000;
   font-family: Circe bold;
   font-size: 28px;
@@ -87,12 +88,13 @@
 }
 
 .header-text h2 {
-  padding-top: 33px;
+  padding-top: 40px;
   color: #000000;
   font-size: 48px;
   font-family: Circe bold;
   text-align: center;
   line-height: 50px;
+  margin-left: 9px;
 }
 
 .header-text h2 span {
@@ -113,7 +115,7 @@
   text-align: center;
   font-family: Circe bold;
   color: #000000;
-  padding-top: 74px;
+  padding-top: 67px;
   line-height: 37px;
   margin-left: -5px;
 }
@@ -127,7 +129,7 @@
 }
 
 .participation__text {
-  padding-top: 96px;
+  padding-top: 93px;
   width: 346px;
   -webkit-transform: skewY(6deg);
           transform: skewY(6deg);
@@ -138,10 +140,13 @@
   font-size: 19px;
   text-align: center;
   margin: 0 auto;
+  padding-top: 5px;
+  margin-left: 12px;
 }
 
 .participation__text__button {
   height: 125px;
+  margin-top: -6px;
 }
 
 .participation__text__button button {
@@ -183,7 +188,7 @@
   -webkit-transform: skewY(6deg);
           transform: skewY(6deg);
   padding-left: 119px;
-  padding-top: 33px;
+  padding-top: 28px;
 }
 
 .participation__img:first-child {
@@ -208,6 +213,12 @@
   padding-bottom: 45px;
 }
 
+.intense-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .intense-headline h1 {
   text-align: center;
   font-size: 42px;
@@ -220,11 +231,12 @@
 }
 
 .intense-wrap {
-  margin-top: 68px;
+  margin-top: 60px;
+  margin-left: -13px;
 }
 
 .intense-wrap:last-child {
-  margin-left: 64px;
+  margin-left: 76px;
 }
 
 .intense-block {
@@ -234,7 +246,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 24px;
+  margin-bottom: 28px;
 }
 
 .intense-block__text {
@@ -247,6 +259,10 @@
 .check-list {
   background-color: #f3ede8;
   padding-top: 50px;
+}
+
+.check-list__button {
+  margin-top: -12px;
 }
 
 .check-list__button button {
@@ -271,7 +287,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 29px;
+  padding-top: 21px;
   margin-left: -40px;
 }
 
@@ -288,6 +304,7 @@
   font-family: Circe Regular;
   color: #fcbc31;
   padding-top: 32px;
+  line-height: 25px;
 }
 
 .check-list__text ul span {
@@ -299,7 +316,7 @@
 }
 
 .check-list__text ul li:last-child {
-  padding-top: 23px;
+  padding-top: 39px;
 }
 
 .results {
@@ -322,7 +339,7 @@
 }
 
 .results-headline {
-  padding-top: 36px;
+  padding-top: 47px;
   padding-bottom: 67px;
 }
 
@@ -382,8 +399,8 @@
 }
 
 .interesting-headline {
-  padding-top: 52px;
-  padding-bottom: 59px;
+  padding-top: 64px;
+  padding-bottom: 54px;
 }
 
 .interesting-headline h1 {
@@ -403,8 +420,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 863px;
-  padding-left: 40px;
+  width: 887px;
+  padding-left: 11px;
 }
 
 .interesting-block__subtilte {
@@ -449,15 +466,15 @@
 
 .interesting-block__2 {
   padding: 0;
-  margin-left: -92px;
+  margin-left: -119px;
   margin-top: 28px;
-  width: 900px;
+  width: 911px;
 }
 
 .interesting-block__3 {
-  margin-top: 30px;
-  margin-left: -71px;
-  width: 932px;
+  margin-top: 31px;
+  margin-left: -56px;
+  width: 946px;
 }
 
 .program {
@@ -477,7 +494,7 @@
 
 .program-headline {
   padding-top: 76px;
-  padding-bottom: 41px;
+  padding-bottom: 31px;
 }
 
 .program-headline h1 {
@@ -494,7 +511,16 @@
 .program-block {
   text-align: center;
   width: 344px;
-  max-height: 625px;
+  min-height: 771px;
+  margin-left: 10px;
+}
+
+.program-block:nth-child(2n) {
+  margin-left: 9px;
+}
+
+.program-block:last-child {
+  margin-right: 12px;
 }
 
 .program-block__subtilte {
@@ -575,6 +601,10 @@
   padding-bottom: 8px;
 }
 
+.program-subtitle {
+  margin-top: -138px;
+}
+
 .program-subtitle h1 {
   font-family: Circe Regular;
   font-size: 28px;
@@ -583,7 +613,7 @@
 }
 
 .program-button {
-  margin: -11px auto;
+  margin: -15px auto;
   width: 341px;
 }
 
